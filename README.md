@@ -1,2 +1,43 @@
-# agent
-多 Agent 智能研发助手，主要用于解决传统软件开发过程中需求分析效率低、重复编码工作量大、测试验证耗时以及多人协作成本高等问题。项目核心目标是通过 AI 自动化能力，实现“需求理解—任务规划—代码生成—自动测试—错误修复—结果汇总”的完整研发闭环，从而显著提升开发效率与代码质量。
+
+# AI Multi-Agent Development Assistant
+
+一个基于 Python 的简化版 AI Multi-Agent 开发助手 Demo。
+
+## 功能
+
+- 需求拆解
+- 代码生成
+- 自动代码评审
+- 自动测试
+- 上下文记忆管理
+
+## 项目结构
+
+```bash
+ai_multi_agent_project/
+├── app.py
+├── agents/
+│   ├── planner_agent.py
+│   ├── coding_agent.py
+│   ├── review_agent.py
+│   ├── testing_agent.py
+│   └── memory_agent.py
+├── requirements.txt
+└── README.md
+```
+
+## 运行方式
+
+```bash
+pip install -r requirements.txt
+python app.py
+```
+
+## 技术关键词
+
+- Multi-Agent
+- LLM Workflow
+- AI Automation
+- Tool Calling
+- Chain of Thought
+- Memory Management
